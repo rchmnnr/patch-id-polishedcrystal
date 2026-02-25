@@ -28,7 +28,7 @@ PokeComNurseMornText:
 	text "Selamat pagi!"
 
 	para "Ini Pusat Komu-"
-	line "nikasi #mon--"
+	line "nikasi #mon-"
 
 	para "atau disebut juga"
 	line "Pusat #Com."
@@ -38,7 +38,7 @@ PokeComNurseDayText:
 	text "Halo!"
 
 	para "Ini Pusat Komu-"
-	line "nikasi #mon--"
+	line "nikasi #mon-"
 
 	para "atau disebut juga"
 	line "Pusat #Com."
@@ -48,7 +48,7 @@ PokeComNurseEveText:
 	text "Selamat malam!"
 
 	para "Ini Pusat Komu-"
-	line "nikasi #mon--"
+	line "nikasi #mon-"
 
 	para "atau disebut juga"
 	line "Pusat #Com."
@@ -59,25 +59,25 @@ PokeComNurseNiteText:
 	line "semangat lembur."
 
 	para "Ini Pusat Komu-"
-	line "nikasi #mon--"
+	line "nikasi #mon-"
 
 	para "atau disebut juga"
 	line "Pusat #Com."
 	done
 
 NurseAskHealText:
-	text "Kami dapat mengo-"
-	line "bati #mon Anda"
-	cont "hingga pulih."
+	text "Kami bisa obati"
+	line "#mon Anda"
+	cont "sampai pulih."
 
 	para "Mulai pulihkan"
 	line "#mon Anda?"
 	done
 
 NurseTrainerStarText:
-	text "Kami dapat mengo-"
-	line "bati #mon Anda"
-	cont "hingga pulih."
+	text "Kami bisa obati"
+	line "#mon Anda"
+	cont "sampai pulih."
 
 	para "Boleh kami…"
 
@@ -99,8 +99,8 @@ NurseTheUsualText:
 	text "Senang berjumpa"
 	line "lagi, <PLAYER>!"
 
-	para "Saya tahu, seperti"
-	line "biasanya, kan?"
+	para "Saya tahu, pasti"
+	line "seperti biasa?"
 	done
 
 NurseTakePokemonText:
@@ -130,11 +130,11 @@ NursePokerusText:
 	line "virus langka."
 
 	para "#mon Anda sehat"
-	line "dan auto-imun"
+	line "dan sistem imun"
 	cont "mereka normal."
 
-	para "Tapi kami belum"
-	line "tahu lebih lanjut"
+	para "Tapi kami tidak"
+	line "tahu lebih banyak"
 
 	para "di sini, di"
 	line "Klinik #mon."
@@ -148,4 +148,103 @@ PokeComNursePokerusText:
 	line "virus langka."
 
 	para "#mon Anda sehat"
-	line "dan auto-imun"
+	line "dan sistem imun"
+	cont "mereka normal."
+	done
+
+DifficultBookshelfText:
+	text "Isinya buku-buku"
+	line "yang sulit."
+	done
+
+PictureBookshelfText:
+	text "Koleksi buku"
+	line "gambar #mon!"
+	done
+
+MagazineBookshelfText:
+	text "Majalah #mon…"
+	line "Sobat #mon,"
+
+	para "Buku Saku #mon,"
+	line "Grafik #mon…"
+	done
+
+TeamRocketOathText:
+	text "Sumpah Tim Rocket"
+
+	para "Curi #mon demi"
+	line "keuntungan!"
+
+	para "Peras #mon demi"
+	line "keuntungan!"
+
+	para "Semua #mon ada"
+	line "demi kejayaan"
+	cont "Tim Rocket!"
+	done
+
+IncenseBurnerText:
+	text "Ini tempat dupa!"
+	done
+
+MerchandiseShelfText:
+	text "Banyak sekali"
+	line "merchandise"
+	cont "#mon!"
+	done
+
+TownMapText:
+	text "Ini Peta Kota."
+	done
+
+DiplomaText:
+	text "Ini Diploma."
+	done
+
+WindowText:
+	text "Refleksiku!"
+	line "Tampak keren!"
+	done
+
+TVText:
+	text "Ini TV."
+	done
+
+WrongSideText:
+	text "Ups, salah sisi."
+	done
+
+RadioOffAirText:
+	text "Radionya hanya"
+	line "suara statis…"
+	done
+
+RefrigeratorText:
+	text "Ini kulkas."
+	done
+
+SinkText:
+	text "Ini wastafel."
+	done
+
+StoveText:
+	text "Ini kompor."
+	done
+
+TrashCanText:
+	text "Tidak ada apa-apa"
+	line "di sini…"
+	done
+
+PokeCenterSignText:
+	text "Sembuhkan #mon!"
+	line "Klinik #mon"
+	done
+
+MartSignText:
+	text "Toko Kebutuhan"
+	line "#mon Anda"
+
+	para "Mart #mon"
+	done
